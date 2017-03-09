@@ -1,0 +1,15 @@
+.body {
+  margin: 0 auto;
+  width: 90%;
+}
+.append,
+.prepand,
+.empty {
+  float: left;
+  width: 30%
+}
+
+.clone {
+ clear: both;
+}
+

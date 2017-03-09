@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  width: 95%
+}
+.show,
+.down,
+.in {
+  display: none;
+}
+.basic,
+.slide,
+.fade {
+  float: left;
+  padding-left: 40px;
+  width: 30%;
+}
+.sliding,
+.fading,
+.animate {
+  clear: both;
+}
+#btn1 {
+  margin-left: 40px;
+}
+#box {
+  background: #98bf21;
+  height: 100px;
+  width: 100px;
+  margin: 6px;
+  margin-left: 40px;
+}
