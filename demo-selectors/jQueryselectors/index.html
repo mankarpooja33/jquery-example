@@ -3,26 +3,28 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
     <title>jQuery Selectors</title>
   </head>
 
-  <body>
-    <h1>jQuery Selectors</h1>
-	<div>
+  <body class="bg-warning">
+    <div class="container">
+    <h1 class="text-center bg-primary">jQuery Selectors</h1>
+	<div class="container change-color">
 	  <h3>Change the colour of p tags</h3>
-	  <button id="mybuttonone">Change color of p element</button>
+	  <button type="button" class="btn btn-info" id="mybuttonone">Change Color</button>
 	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 	  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 	  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 	</div> 
-    <div>
-	  <h3>Border to div with class name "myclass"<h3>
-	  <div>
-	    <button id="mybuttontwo">Apply border to div</button><br><br>
-	    <span class="myclass">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. 
-		Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</span>
-	  </div>
+    <div class="container">
+	  <h3>Border to div with class name "myclass"</h3>
+	    <button type="button" class="btn btn-info" id="mybuttontwo">Change Border</button>
+	    <p class="myclass">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. 
+		Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
     </div>	
+	</div>
   </body>
   <script src="main.js"></script>
 </html>
